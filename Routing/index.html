@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DB Selection</title>
+        <link rel="stylesheet" type="text/css" href="node_modules/jointjs/dist/joint.css" />
+        <link rel="stylesheet" type="text/css" href="pages/style/umlEditorStyle.css" />
+    </head>
+    <body ng-app="dbSelection" class="field">
+
+
+        <!-- load angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/lodash/index.js"></script>
+        <script src="node_modules/backbone/backbone.js"></script>
+        <script src="node_modules/jointjs/dist/joint.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="pages/style/HomePageStyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+        <!-- load app -->
+        <script src="app.js"></script>
+
+        <!-- load controllers -->
+        <script src="pages/HomePage/HomePageController.js"></script>
+        <script src="pages/LogoutPage/LogoutPageController.js"></script>
+        <script src="pages/RegisterPage/RegisterPageController.js"></script>
+        <script src="pages/MyProjects/MyProjectsController.js"></script>
+        <script src="pages/NewProject/NewProjectController.js"></script>
+        <script src="pages/UMLEditor/UMLEditorController.js"></script>
+        <script src="pages/SQLEditor/SQLEditorController.js"></script>
+        <script src="pages/NFRTable/NFRTableController.js"></script>
+        <script src="pages/MatrixWeight/MatrixWeightController.js"></script>
+        <script src="pages/AboutPage/AboutPageController.js"></script>
+        <script src="pages/RestPassword/RestPasswordController.js"></script>
+
+        <!-- the website -->
+
+        <!-- menu -->
+
+    
+      
+        <ul > 
+            <li id="HomePage"><a href="#!HomePage">Login</a> </li>
+            <li id="LogoutPage"><a href="#!LogoutPage">Logout</a> </li>
+            <li id="RegisterPage"><a href="#!RegisterPage">Register</a> </li>
+            <li id="MyProjects"><a href="#!MyProjects">My Projects</a> </li>
+            <li id="NewProject"><a href="#!NewProject">New Project</a> </li>
+            <li id="UMLEditor" ><a href="#!UMLEditor"  class="liShift">UML Editor</a> </li>
+            <li id="SQLEditor" ><a href="#!SQLEditor" class="liShift">SQL Editor</a> </li>
+            <li id="NFRTable"><a href="#!NFRTable"  class="liShift">NFR Table</a> </li>
+            <li id="MatrixWeight" ><a href="#!MatrixWeight" class="liShift">Matrixs Weight</a> </li>
+            <li id="AboutPage"><a href="#!AboutPage">About</a> </li>
+        </ul>
+        
+        <!-- This section changes as the hashbang changes -->
+        <div ng-view  id="ng-view"></div>
+
+        <div class="footer">
+            site footer 
+        </div>
+       
+    </body>
+    
+</html>

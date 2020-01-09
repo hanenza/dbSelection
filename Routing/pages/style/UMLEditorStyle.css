@@ -1,0 +1,98 @@
+#myholder {
+  position: relative;
+  border: 1px solid gray;
+  display: inline-block;
+  background: transparent;
+  overflow: hidden;
+}
+#myholder svg {
+  background: transparent;
+}
+#myholder svg .link {
+  z-index: 2;
+}
+
+.rectangle {
+  height: 33px;
+  width: 130px;
+  background-color: orange;
+  color:black;
+  text-align: center;
+  margin-left: 1052px;;
+  display:inline-block;
+  font-weight: bold;
+}
+
+.method {
+  font-size:10px;
+  text-align: left;
+  padding-left:10px ;
+}
+
+.container {
+  text-align:left;
+  height: 220px;
+}
+
+.one {
+display:inline;
+}
+
+.two {
+display:inline;
+padding-left: 50px;
+}
+
+#btn{
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+  
+}
+
+.editInput{
+  size:2px;
+}
+
+.inputClass{
+  width:120px;
+  height:2px ;
+  display:block;
+}
+
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #555555;
+  width: 10%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height:40%;
+  text-align:center;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+  background-color: #dddddd
+}
+
+
