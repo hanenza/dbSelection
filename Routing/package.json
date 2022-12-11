@@ -5,7 +5,7 @@
   "main": "DButils.js",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "install": "^0.13.0",
     "joint": "0.0.1",
     "jointjs": "^3.1.1",
