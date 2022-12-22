@@ -10,7 +10,7 @@
     "joint": "0.0.1",
     "jointjs": "^3.1.1",
     "json": "^9.0.6",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "nodemon": "^1.19.1",
     "npm": "^6.13.0",
     "tedious-connection-pool": "^1.0.5"
